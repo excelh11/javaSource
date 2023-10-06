@@ -1,5 +1,0 @@
-Hello, PrintWriter!
-123
-3.14
-Java Programming
-Formatted number: 456
