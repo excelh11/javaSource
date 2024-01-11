@@ -3,7 +3,8 @@ package sec12.ex01;
 public class AnonymousRunEx {
 
 	public static void main(String[] args) {
-		 // Runnable 익명 구현 객체
+		
+		// Runnable 익명 구현 객체
         Runnable myRunnable = new Runnable() {
             @Override
             public void run() {

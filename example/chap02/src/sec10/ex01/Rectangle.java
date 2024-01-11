@@ -12,8 +12,6 @@ public class Rectangle {
         this.height = height;
     }
 
-    // Getter and setter methods...
-
     public int calculateArea() {
         return width * height;
     }

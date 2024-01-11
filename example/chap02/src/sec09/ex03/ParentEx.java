@@ -8,9 +8,9 @@ public class ParentEx {
 	            public void doSomething() {
 	                System.out.println("익명 자식 클래스 입니다.");
 	            }
-	        };
+	     };
 
-	        parent.doSomething();
+	     parent.doSomething();
 	}
 
 }

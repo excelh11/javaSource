@@ -3,16 +3,17 @@ package sec06.ex03;
 public class CalculatorOver {
 	 public int add(int a, int b) {
 	        return a + b;
-	    }
+	 }
 	    
-	    public int add(int a, int b, int c) {
+	 public int add(int a, int b, int c) {
 	        return a + b + c;
-	    }
+	 }
 	    
-	    public double add(double a, double b) {
+	 public double add(double a, double b) {
 	        return a + b;
-	    }
-	public static void main(String[] args) {
+	 }
+	 
+	 public static void main(String[] args) {
 		CalculatorOver calculOver = new CalculatorOver();
         
         int sum1 = calculOver.add(3, 5);

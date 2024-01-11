@@ -3,6 +3,7 @@ package sec15.ex02;
 import java.io.*;
 
 public class PrintWriterEx {
+	
     public static void main(String[] args) {
         String fileName = "print.txt";
 
@@ -18,4 +19,5 @@ public class PrintWriterEx {
             e.printStackTrace();
         }
     }
+    
 }

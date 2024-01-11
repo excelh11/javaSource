@@ -30,4 +30,4 @@ public class ThreadNameEx  extends Thread {
         System.out.println("thread2에서 변경된 스레드 이름: " + thread2.getName());
 	}
 
-	}
+}

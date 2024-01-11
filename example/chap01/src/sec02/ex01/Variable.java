@@ -4,11 +4,12 @@ public class Variable {
 
 	public static void main(String[] args) {
 		int myNum = 15;
-		myNum = 20;	// 값을 15에서 20으로 변경합니다.
+		myNum = 20;
 		String name = "자바";
 		
 		System.out.println(myNum);
 		System.out.println(name);
+
 	}
 
 }

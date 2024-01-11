@@ -15,13 +15,13 @@ public class IOExceptionEx {
 	                System.out.println(line);
 	            }
 	            reader.close();
-	        } catch (FileNotFoundException e) {
+	      } catch (FileNotFoundException e) {
 	            System.out.println("파일을 찾을 수 없습니다: " + e.getMessage());
 	            e.printStackTrace();
-	        } catch (IOException e) {
+	      } catch (IOException e) {
 	            System.out.println("파일을 읽어오는 동안 예외가 발생했습니다: " + e.getMessage());
 	            e.printStackTrace();
-	        }
+	      }
 	}
 
 }

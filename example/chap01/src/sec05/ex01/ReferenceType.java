@@ -44,7 +44,6 @@ public class ReferenceType {
 		}else {
 			System.out.println("null이 아닙니다.");
 		}
-
 	}
 
 }

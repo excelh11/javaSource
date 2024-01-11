@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class DoWhileEx02 {
 
 	public static void main(String[] args) {
-		 Scanner scanner = new Scanner(System.in);
+		 	Scanner scanner = new Scanner(System.in);
 	        int number;
 
 	        do {
@@ -16,5 +16,5 @@ public class DoWhileEx02 {
 	        System.out.println("입력한 숫자는 " + number + "입니다.");
 	    }
 	
-	}
+}
 

@@ -4,7 +4,8 @@ import java.io.IOException;
 public class CharArrayWriteEx {
 
 	public static void main(String[] args) {
-		 String fileName = "char_array_output.txt";
+		
+		 	String fileName = "char_array_output.txt";
 
 	        try (FileWriter writer = new FileWriter(fileName)) {
 	            char[] cbuf = {'H', 'e', 'l', 'l', 'o'};
@@ -16,8 +17,8 @@ public class CharArrayWriteEx {
 	        } catch (IOException e) {
 	            e.printStackTrace();
 	        }
-	    }
-	
 	}
+	
+}
 
 

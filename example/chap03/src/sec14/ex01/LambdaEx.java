@@ -10,7 +10,7 @@ public class LambdaEx {
 	        System.out.println("3의 제곱: " + square.apply(3));
 	        System.out.println("5의 제곱: " + square.apply(5));
 	    }
-	}
+}
 
 	// 함수형 인터페이스 정의
 	interface MyFunction {

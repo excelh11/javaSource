@@ -9,6 +9,7 @@ public class OperationNumber {
 		
 		int total = (hour*60) + minute;
 		System.out.println("총 " + total + "분 입니다.");
+
 	}
 
 }

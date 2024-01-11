@@ -3,7 +3,7 @@ package sec12.ex01;
 public class CurrnetThreadEx {
 
 	public static void main(String[] args) {
-		 // 현재 실행 중인 스레드 객체 얻기
+		// 현재 실행 중인 스레드 객체 얻기
         Thread currentThread = Thread.currentThread();
 
         // 스레드의 이름과 우선순위 출력

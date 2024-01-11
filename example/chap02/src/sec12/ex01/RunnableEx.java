@@ -16,7 +16,8 @@ class MyRunnable implements Runnable {
 public class RunnableEx {
 
 	public static void main(String[] args) {
-		 System.out.println("Main Thread 시작");
+		
+		 	System.out.println("Main Thread 시작");
 
 	        MyRunnable myRunnable = new MyRunnable();
 	        Thread thread = new Thread(myRunnable);
@@ -24,6 +25,7 @@ public class RunnableEx {
 
 	        for (int i = 1; i <= 5; i++) {
 	            System.out.println("Main Thread: " + i);
+	            
 	            try {
 	                Thread.sleep(500); // 0.5초에 한 번씩 출력
 	            } catch (InterruptedException e) {

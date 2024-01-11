@@ -13,6 +13,6 @@ public class CarEx {
 	        
 	        // GasolineCar 클래스에만 존재하는 refuel() 메소드에도 접근할 수 없습니다.
 	        // car2.refuel(); // 컴파일 에러
-	}
+		}
 
 }

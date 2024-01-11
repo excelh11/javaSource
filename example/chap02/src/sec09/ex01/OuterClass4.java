@@ -17,9 +17,12 @@ public class OuterClass4 {
             System.out.println("Outer field: " + OuterClass4.this.outerField);
         }
     }
+    
     public static void main(String[] args) {
+    	
     	OuterClass4 outerObj = new OuterClass4();
         outerObj.outerMethod();
+        
     }
 }
 

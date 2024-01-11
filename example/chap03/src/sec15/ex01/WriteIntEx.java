@@ -23,4 +23,5 @@ public class WriteIntEx {
             e.printStackTrace();
         }
     }
+	
 }

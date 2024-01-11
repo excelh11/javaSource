@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ConstructorEx {
+	
     public static void main(String[] args) {
         Supplier<List<String>> listSupplier = ArrayList::new;
         
@@ -14,5 +15,6 @@ public class ConstructorEx {
         
         System.out.println(list); 
     }
+    
 }
 

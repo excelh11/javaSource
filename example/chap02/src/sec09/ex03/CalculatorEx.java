@@ -25,6 +25,6 @@ public class CalculatorEx {
 	        };
 
 	        MathUtils.performCalculation(a, b, subtraction);
-	    }
+	}
 
 }

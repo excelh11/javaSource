@@ -15,7 +15,7 @@ class MyThread extends Thread {
 
 public class ThreadEx {
 	public static void main(String[] args) {
-		  System.out.println("Main Thread 시작");
+		  	System.out.println("Main Thread 시작");
 
 	        MyThread myThread = new MyThread();
 	        myThread.start(); // 새로운 스레드 시작

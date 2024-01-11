@@ -16,7 +16,7 @@ public class Calculator {
         int sum = calculator.add(3, 5);
         System.out.println("합계: " + sum);
         
-        calculator.printInfo("자바", 30);
+        calculator.printInfo("John", 30);
     }
 }
 

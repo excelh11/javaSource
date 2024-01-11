@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Example {
 
 	public static void main(String[] args) {
-		 Scanner scanner = new Scanner(System.in);
+		 	Scanner scanner = new Scanner(System.in);
 
 	        System.out.print("짝수인지 홀수인지 확인하고 싶은 숫자 개수를 입력하세요: ");
 	        int count = scanner.nextInt();
@@ -23,5 +23,6 @@ public class Example {
 	        }
 
 	        scanner.close();
-	    }
 	}
+	
+}

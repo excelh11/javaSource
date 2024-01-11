@@ -7,11 +7,11 @@ class Fish implements Animal2, Swimmable {
         this.name = name;
     }
     
-    public void eat() { 				// Animal2 메소드
+    public void eat() { // Animal2 메소드
         System.out.println(name + " is eating.");
     }
     
-    public void swim() {			// Swimmable 메소드
+    public void swim() { // Swimmable 메소드
         if (name.equals("Salmon")) {
             System.out.println(name + " can swim.");
         } else {

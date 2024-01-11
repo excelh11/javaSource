@@ -1,7 +1,7 @@
 package sec09.ex01;
 
 public class OuterClass {
-	 private String outerVariable = "Outer";
+	 	private String outerVariable = "Outer";
 
 	    private void outerMethod() {
 	        System.out.println("Outer Method");

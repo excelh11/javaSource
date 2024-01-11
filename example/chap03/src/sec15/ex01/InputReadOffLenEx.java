@@ -4,6 +4,7 @@ import java.io.IOException;
 public class InputReadOffLenEx {
 
 	public static void main(String[] args) {
+		
 		String fileName = "test1.txt";
 
 		try (FileInputStream inputStream = new FileInputStream(fileName)) {

@@ -12,5 +12,5 @@ public class ArithmeticEx {
 		        } catch (ArithmeticException e) {
 		            System.out.println("에러 : " + e.getMessage());
 		        }
-		    }
-	}
+		 }
+}

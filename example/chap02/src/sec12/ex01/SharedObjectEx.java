@@ -38,7 +38,7 @@ public class SharedObjectEx {
         thread1.start();
         thread2.start();
         
-     // 스레드가 모두 종료될 때까지 기다림
+        // 스레드가 모두 종료될 때까지 기다림
         try {
             thread1.join();
             thread2.join();

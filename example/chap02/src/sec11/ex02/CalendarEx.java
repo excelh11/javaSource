@@ -6,7 +6,7 @@ public class CalendarEx {
 
 	public static void main(String[] args) {
 	     
-	     Calendar calendar = Calendar.getInstance(); // 현재 날짜와 시간을 나타내는 Calendar 객체 생성
+	     	Calendar calendar = Calendar.getInstance(); // 현재 날짜와 시간을 나타내는 Calendar 객체 생성
 	        int year = calendar.get(Calendar.YEAR); // 현재 년도 가져오기
 	        int month = calendar.get(Calendar.MONTH); // 현재 월 가져오기 (0부터 시작)
 	        int dayOfMonth = calendar.get(Calendar.DAY_OF_MONTH); // 현재 일자 가져오기
@@ -49,6 +49,6 @@ public class CalendarEx {
 	        String amPm = hourOfDay < 12 ? "오전" : "오후";
 	        System.out.println("현재 시간은 " + amPm+" "+ hour+"시"+minute+"분" + "입니다.");
 	       
-	        }
+	 }
 
 }

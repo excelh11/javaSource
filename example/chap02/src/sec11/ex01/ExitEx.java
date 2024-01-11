@@ -20,8 +20,8 @@ public class ExitEx {
 	            System.out.println("프로그램 종료 전에 마무리 작업을 수행합니다.");
 	        }
 	}
-	 public static int divide(int num1, int num2) {
+	public static int divide(int num1, int num2) {
 	     return num1 / num2;
-	 }
+	}
 
 }

@@ -8,4 +8,4 @@ public class MehtodEx {
 	        int result = parseInt.apply("123");
 	        System.out.println(result);
 	    }
-	}
+}

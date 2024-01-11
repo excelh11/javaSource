@@ -14,9 +14,9 @@ public class AnonymousThreadEx {
                         e.printStackTrace();
                     }
                 }
-	}
+            }
 
-};
+		};
 		thread.start(); // 스레드 실행 시작
 
         // 메인 스레드는 자식 스레드가 실행될 동안 다른 작업을 수행할 수 있음

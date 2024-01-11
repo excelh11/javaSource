@@ -3,6 +3,7 @@ package sec15.ex02;
 import java.io.*;
 
 public class PrimitiveDataEx {
+	
     public static void main(String[] args) {
         String fileName = "data.dat";
 
@@ -26,5 +27,6 @@ public class PrimitiveDataEx {
             e.printStackTrace();
         }
     }
+    
 }
 

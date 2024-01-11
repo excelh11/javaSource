@@ -19,6 +19,6 @@ public class CarEx2 {
 	            GasolineCar gasolineCar = (GasolineCar) car2;
 	            gasolineCar.refuel(); // 출력: Refueling the gasoline car
 	        }
-	}
+		}
 
 }

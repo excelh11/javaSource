@@ -4,6 +4,7 @@ import java.io.FileOutputStream;
 import java.io.OutputStream;
 
 public class ByteArrayEx1 {
+	
     public static void main(String[] args) {
         byte[] array = {10, 20, 30};
 
@@ -15,4 +16,5 @@ public class ByteArrayEx1 {
             e.printStackTrace();
         }
     }
+    
 }

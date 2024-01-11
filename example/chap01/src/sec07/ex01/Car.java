@@ -9,9 +9,10 @@ class Vehicle {
 	  public final void stop() {
 		  System.out.println("멈춥니다.");
 	  }
-	}
+}
 
-	class Car extends Vehicle {
+class Car extends Vehicle {
+	
 	  private String modelName = "Mustang";   
 	  
 	  @Override
@@ -27,4 +28,5 @@ class Vehicle {
 	    myCar.honk();
 	    System.out.println(myCar.brand + " " + myCar.modelName);
 	  }
-	}
+	  
+}

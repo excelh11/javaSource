@@ -18,9 +18,10 @@ public class ThisEx {
     public void printNumber() {
         System.out.println("Number: " + this.getNumber());
     }
+    
 	public static void main(String[] args) {
 		ThisEx thisEx =  new ThisEx(42);
 		thisEx.printNumber();
-}
+	}
 }
 

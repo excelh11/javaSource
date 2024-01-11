@@ -1,7 +1,7 @@
 package sec09.ex03;
 
 public class PowerController {
-	 private int batteryLevel;
+	 	private int batteryLevel;
 
 	    public PowerController(int batteryLevel) {
 	        this.batteryLevel = batteryLevel;

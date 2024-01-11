@@ -5,7 +5,7 @@ import java.util.LinkedList;
 public class PerformanceComparisonEx {
 
 	public static void main(String[] args) {
-		 int n = 1000000; // 요소 개수
+		 	int n = 1000000; // 요소 개수
 	        long startTime, endTime;
 
 	        // ArrayList 추가 및 삭제 속도 측정
@@ -28,9 +28,11 @@ public class PerformanceComparisonEx {
 	        LinkedList<Integer> linkedList = new LinkedList<>();
 
 	        startTime = System.nanoTime();
+	        
 	        for (int i = 0; i < n; i++) {
 	            linkedList.add((int) (Math.random() * n));
 	        }
+	        
 	        endTime = System.nanoTime();
 	        System.out.println("LinkedList 추가 시간: " + (endTime - startTime) + "ns");
 
@@ -38,5 +40,5 @@ public class PerformanceComparisonEx {
 	        linkedList.removeLast(); // 마지막 요소 삭제
 	        endTime = System.nanoTime();
 	        System.out.println("LinkedList 삭제 시간: " + (endTime - startTime) + "ns");
-	    }
 	}
+}

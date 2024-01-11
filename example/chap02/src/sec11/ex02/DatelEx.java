@@ -6,6 +6,7 @@ import java.util.Date;
 public class DatelEx {
 
 	public static void main(String[] args) {
+		
 		 Date currentDate = new Date(); // 현재 날짜와 시간을 나타내는 Date 객체 생성
 	     System.out.println(currentDate);
 	     

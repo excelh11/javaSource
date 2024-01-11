@@ -3,7 +3,7 @@ package sec12.ex02;
 public class WaitNotifyEx {
 
 	public static void main(String[] args) {
-		 Message message = new Message();
+		 	Message message = new Message();
 
 	        // 메시지를 출력하는 스레드
 	        Thread senderThread = new Thread(() -> {
@@ -34,5 +34,5 @@ public class WaitNotifyEx {
 
 	        senderThread.start();
 	        receiverThread.start();
-	    }
 	}
+}

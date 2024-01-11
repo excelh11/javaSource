@@ -1,7 +1,7 @@
 package sec06.ex04;
 
 public class Person {
-	  private String name;
+	  	private String name;
 	    private int age;
 	    
 	    // 매개변수를 받는 생성자
@@ -24,10 +24,11 @@ public class Person {
 	    public int getAge() {
 	        return age;
 	    }
+	    
 	    public static void main(String[] args) {
 	        // 매개변수를 받는 생성자를 사용하여 객체 생성
-	        Person person1 = new Person("자바", 30);
-	        System.out.println(person1.getName()); // 출력: 김자바
+	        Person person1 = new Person("John", 30);
+	        System.out.println(person1.getName()); // 출력: John
 	        System.out.println(person1.getAge()); // 출력: 30
 	        
 	        // 매개변수가 없는 생성자를 사용하여 객체 생성
@@ -35,4 +36,4 @@ public class Person {
 	        System.out.println(person2.getName()); // 출력: Unknown
 	        System.out.println(person2.getAge()); // 출력: 0
 	    }
-	}
+}

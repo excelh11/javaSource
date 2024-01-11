@@ -4,7 +4,9 @@ import java.util.List;
 import java.util.function.Consumer;
 
 public class ConsumerEx {
+	
     public static void main(String[] args) {
+    	
         List<String> names = new ArrayList<>();
         names.add("진수");
         names.add("은화");
@@ -16,5 +18,6 @@ public class ConsumerEx {
         Consumer<String> printName = name -> System.out.println("이름: " + name);
         names.forEach(printName);
     }
+    
 }
 

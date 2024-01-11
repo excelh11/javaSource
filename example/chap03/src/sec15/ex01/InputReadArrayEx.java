@@ -3,7 +3,9 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 public class InputReadArrayEx {
+	
     public static void main(String[] args) {
+    	
         String fileName = "test3.txt";
         try (FileInputStream inputStream = new FileInputStream(fileName)) {
             byte[] buffer = new byte[100]; // 길이가 100인 배열 바이트 생성
@@ -19,4 +21,5 @@ public class InputReadArrayEx {
             e.printStackTrace();
         }
     }
+    
 }

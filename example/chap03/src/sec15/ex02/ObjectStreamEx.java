@@ -2,6 +2,7 @@ package sec15.ex02;
 import java.io.*;
 
 public class ObjectStreamEx {
+	
     public static void main(String[] args) {
         String fileName = "object.dat";
 
@@ -23,6 +24,7 @@ public class ObjectStreamEx {
             e.printStackTrace();
         }
     }
+    
 }
 
 // 시리얼라이즈 가능한(Student 클래스에 implements Serializable 필요)

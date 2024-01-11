@@ -6,7 +6,7 @@ import java.util.Set;
 public class IteratorEx {
 
 	public static void main(String[] args) {
-		 // HashSet 생성
+		// HashSet 생성
         Set<String> set = new HashSet<>();
 
         // 요소 추가
@@ -31,7 +31,7 @@ public class IteratorEx {
         for (String fruit : set) {
             System.out.println(fruit);
         }
-     // "바나나"가 Set에 있는지 확인
+        // "바나나"가 Set에 있는지 확인
         System.out.println("Set에 '바나나'가 있나요? " + set.contains("바나나"));
     }
 }

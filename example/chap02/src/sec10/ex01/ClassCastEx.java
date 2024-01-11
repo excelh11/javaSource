@@ -3,7 +3,8 @@ package sec10.ex01;
 public class ClassCastEx {
 
 	public static void main(String[] args) {
-		  Animal animal = new Dog();
+		
+		  	Animal animal = new Dog();
 	        
 	        try {
 	            if (animal instanceof Dog) {

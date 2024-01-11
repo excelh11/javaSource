@@ -18,5 +18,5 @@ public class StackEx {
 	        int topValue = stack.pop();
 	        System.out.println("꺼낸 데이터: " + topValue);
 	        System.out.println("스택: " + stack);
-	    }
 	}
+}

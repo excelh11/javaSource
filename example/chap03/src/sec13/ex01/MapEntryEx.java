@@ -5,7 +5,7 @@ import java.util.Map;
 public class MapEntryEx {
 
 	public static void main(String[] args) {
-		 // HashMap 생성 (키: 문자열, 값: 정수)
+		// HashMap 생성 (키: 문자열, 값: 정수)
         Map<String, Integer> hashMap = new HashMap<>();
 
         // 데이터 추가

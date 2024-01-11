@@ -8,4 +8,5 @@ public class ForEx01 {
 		    System.out.println("2 * " + i + " = " + result);
 		}
 	}
+	
 }

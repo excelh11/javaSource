@@ -1,6 +1,7 @@
 package sec06.ex03;
 
 public class MyClass {
+	
     public void methodA() {
         System.out.println("메서드 A를 호출했습니다.");
     }
@@ -18,4 +19,5 @@ public class MyClass {
         // 메서드 B 호출
         myObject.methodB();
     }
+    
 }

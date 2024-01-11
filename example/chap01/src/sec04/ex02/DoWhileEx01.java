@@ -8,5 +8,6 @@ public class DoWhileEx01 {
 		    i++;
 		} while (i <= 5);
 	}
-	}
+	
+}
 

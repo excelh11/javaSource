@@ -5,7 +5,7 @@ public class charEx {
 	public static void main(String[] args) {
 		// 1. 문자열 순회
 		String str = "Hello, World!";
-		 System.out.print("1. ");
+		System.out.print("1. ");
 		for (int i = 0; i < str.length(); i++) {
 		    char c1 = str.charAt(i);
 		    System.out.print( c1);
@@ -21,12 +21,12 @@ public class charEx {
 		}
 		
 		// 3. 문자열 역순 출력
-		 System.out.print("3. ");
+		System.out.print("3. ");
 		for (int i = str.length() - 1; i >= 0; i--) {
 		    char c3 = str.charAt(i);
 		    System.out.print(c3);
 		}
-		 System.out.println("");
+		System.out.println("");
 		 
 		// 4. 특정 문자 개수 세기
 		char targetChar = 'l';

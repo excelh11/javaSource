@@ -17,4 +17,5 @@ public class ScannerEx {
 
         scanner.close(); // Scanner 사용이 끝난 후 닫아주는 것이 좋음
     }
+	
 }

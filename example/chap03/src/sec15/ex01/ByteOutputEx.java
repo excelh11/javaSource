@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 
 public class ByteOutputEx {
+	
     public static void main(String[] args) {
         try {
             // 스트림 생성
@@ -21,4 +22,5 @@ public class ByteOutputEx {
             e.printStackTrace();
         }
     }
+    
 }

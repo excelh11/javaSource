@@ -16,12 +16,12 @@ public class ThrowsEx1 {
 
     public static void main(String[] args) {
         ThrowsEx1 example = new ThrowsEx1();
+        
         try {
             example.readFile("example.txt");
-        } 
-        catch (FileNotFoundException e) {
+        }catch (FileNotFoundException e) {
             System.out.println("File not found: " + e.getMessage());
-        } catch (IOException e) {
+        }catch (IOException e) {
             System.out.println("Error reading file: " + e.getMessage());
         }
     }
