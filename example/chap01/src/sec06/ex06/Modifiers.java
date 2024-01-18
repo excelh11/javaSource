@@ -1,6 +1,6 @@
 package sec06.ex06;
 
-public class modifiers {
+public class Modifiers {
 
 	//필드
 	public int field1;			//public 접근 제한자
@@ -8,7 +8,7 @@ public class modifiers {
 	private int field3;			//private 접근 제한자
 	
 	// 생성자
-	public modifiers() {
+	public Modifiers() {
 		field1 =1;
 		field2 =2;
 		field3 =3;

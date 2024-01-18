@@ -1,8 +1,8 @@
 package sec06.ex06;	// modifiers클래스와 패키지가 동일
 
-public class modifiers2 {
+public class Modifiers2 {
 	
-	public modifiers2() {
+	public Modifiers2() {
 		modifiers modi = new modifiers();
 		modi.field1 =1;
 		modi.field2 =2;
