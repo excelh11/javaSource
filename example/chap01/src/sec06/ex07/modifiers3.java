@@ -2,10 +2,10 @@ package sec06.ex07;// modifiers클래스와 패키지가 다름
 
 import sec06.ex06.modifiers;
 
-public class modifiers3 {
+public class Modifiers3 {
 	
-	public modifiers3() {
-		modifiers modi = new modifiers();
+	public Modifiers3() {
+		Modifiers modi = new Modifiers();
 		modi.field1 =1;
 	//	modi.field2 =2;		default 접근제한자 이므로 에러
 	//	modi.field3 =3;		private 접근제한자 이므로 에러
