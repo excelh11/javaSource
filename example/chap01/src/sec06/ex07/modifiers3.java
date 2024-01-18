@@ -1,6 +1,6 @@
 package sec06.ex07;// modifiers클래스와 패키지가 다름
 
-import sec06.ex06.modifiers;
+import sec06.ex06.Modifiers;
 
 public class Modifiers3 {
 	
