@@ -3,7 +3,7 @@ package sec06.ex06;	// modifiers클래스와 패키지가 동일
 public class Modifiers2 {
 	
 	public Modifiers2() {
-		modifiers modi = new modifiers();
+		Modifiers modi = new Modifiers();
 		modi.field1 =1;
 		modi.field2 =2;
 //		modi.field3 =3;			private 접근제한자 이므로 에러
