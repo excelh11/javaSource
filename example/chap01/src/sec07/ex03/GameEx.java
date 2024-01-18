@@ -4,7 +4,7 @@ public class GameEx {
 
 	public static void main(String[] args) {
 		
-	 	Warrior warrior = new Warrior("Aragorn", 10);
+	Warrior warrior = new Warrior("Aragorn", 10);
         Mage mage = new Mage("Gandalf", 15);
         
         warrior.attack();
