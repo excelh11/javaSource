@@ -1,7 +1,7 @@
 package sec09.ex03;
 
 public class PowerController {
-	 	private int batteryLevel;
+	    private int batteryLevel;
 
 	    public PowerController(int batteryLevel) {
 	        this.batteryLevel = batteryLevel;
@@ -25,4 +25,4 @@ public class PowerController {
 	        int level = batteryIndicator.getBatteryLevel();
 	        System.out.println("베터리 레벨: " + level);
 	    }
-	}
+}
