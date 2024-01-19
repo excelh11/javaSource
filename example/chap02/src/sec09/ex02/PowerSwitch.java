@@ -1,7 +1,7 @@
 package sec09.ex02;
 
 public interface PowerSwitch {
-	void turnOn();
+    void turnOn();
     void turnOff();
 
     public interface Indicator {
