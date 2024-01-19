@@ -3,7 +3,7 @@ package sec09.ex03;
 public class CalculatorEx {
 
 	public static void main(String[] args) {
-			int a = 10;
+		int a = 10;
 	        int b = 5;
 
 	        // Calculator 인터페이스를 익명 구현 객체로 생성하여 로컬 변수로 사용
