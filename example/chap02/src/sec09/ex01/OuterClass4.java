@@ -2,7 +2,7 @@ package sec09.ex01;
 
 public class OuterClass4 {
 	
-	private int outerField = 10;
+    private int outerField = 10;
 
     public void outerMethod() {
         InnerClass innerObj = new InnerClass();
