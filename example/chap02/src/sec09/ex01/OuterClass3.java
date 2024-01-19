@@ -24,7 +24,7 @@ public class OuterClass3 {
 
         public void innerMethod() {
             System.out.println("Inner method");
-            // innerField = 20;   	// 외부 클래스의 인스턴스 필드에는 접근 불가능
+               innerField = 20;   	
             // outerField = 30;    	// 외부 클래스의 인스턴스 필드에는 접근 불가능
             // outerMethod();      	// 외부 클래스의 인스턴스 메소드 호출 불가능
         }
