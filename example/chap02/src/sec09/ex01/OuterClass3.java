@@ -1,7 +1,7 @@
 package sec09.ex01;
 
 public class OuterClass3 {
-	private static int outerStaticField;
+    private static int outerStaticField;
     private int outerField;
 
     public static void outerStaticMethod() {
