@@ -1,7 +1,7 @@
 package sec09.ex01;
 
 public class StaticOuter {
-	 private static String outerVariable = "Outer";
+	    private static String outerVariable = "Outer";
 
 	    private static void outerMethod() {
 	        System.out.println("Outer Method");
