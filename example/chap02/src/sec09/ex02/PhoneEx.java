@@ -4,9 +4,9 @@ public class PhoneEx {
 
 	public static void main(String[] args) {
 		
-		   Phone.Camera camera = new Phone.Camera();
+		Phone.Camera camera = new Phone.Camera();
 		   
-		  	Phone samsung = new Phone("Galaxy");
+		Phone samsung = new Phone("Galaxy");
 	        samsung.makeCall("010-2222-2589");
 	        
 	        camera.takePhoto();
