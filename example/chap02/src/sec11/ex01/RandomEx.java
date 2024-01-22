@@ -5,9 +5,9 @@ import java.util.Arrays;
 public class RandomEx {
 
 		public static void main(String[] args) {
-		   int[] lottoNumbers = lotto();
-	        System.out.println("로또 번호: " + Arrays.toString(lottoNumbers));
-	    }
+		   	int[] lottoNumbers = lotto();
+	        	System.out.println("로또 번호: " + Arrays.toString(lottoNumbers));
+	    	}
 
 	    public static int[] lotto() {
 	        int[] numbers = new int[6];
