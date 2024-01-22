@@ -18,9 +18,9 @@ public class ReflectionEx {
 	            System.out.println(member.getName());
 	            System.out.println(member.getSimpleName());
 	            
-	        } catch (ClassNotFoundException e) {
+	          } catch (ClassNotFoundException e) {
 	            e.printStackTrace();
-	        }
+	          }
 	}
 
 }
