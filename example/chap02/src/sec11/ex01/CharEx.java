@@ -5,7 +5,7 @@ public class CharEx {
 	public static void main(String[] args) {
 		// 1. 문자열 순회
 		String str = "Hello, World!";
-		System.out.print("1. ");
+		System.out.print("1. "); 
 		for (int i = 0; i < str.length(); i++) {
 		    char c1 = str.charAt(i);
 		    System.out.print( c1);
