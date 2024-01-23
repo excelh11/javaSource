@@ -1,6 +1,6 @@
 package sec11.ex01;
 
-public class charEx {
+public class CharEx {
 
 	public static void main(String[] args) {
 		// 1. 문자열 순회
