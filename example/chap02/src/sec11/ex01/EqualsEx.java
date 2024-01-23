@@ -1,6 +1,6 @@
 package sec11.ex01;
 
-public class equalsEx {
+public class EqualsEx {
 
 	public static void main(String[] args) {
 		String str1 = new String("Hello");
