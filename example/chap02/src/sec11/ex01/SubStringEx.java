@@ -1,6 +1,6 @@
 package sec11.ex01;
 
-public class subStringEx {
+public class SubStringEx {
 
 	public static void main(String[] args) {
 		 String originalString = "Hello, World!";
