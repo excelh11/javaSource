@@ -3,7 +3,7 @@ package sec11.ex02;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class DatelEx {
+public class DateEx {
 
 	public static void main(String[] args) {
 		
@@ -11,7 +11,7 @@ public class DatelEx {
 	     System.out.println(currentDate);
 	     
 	     // 원하는 형식의 문자열 생성
-	     SimpleDateFormat sdf = new SimpleDateFormat("yyyy년 mm월 dd 일 hh시 mm분");
+	     SimpleDateFormat sdf = new SimpleDateFormat("yyyy년 MM월 dd 일 hh시 mm분");
 	     String strDate = sdf.format(currentDate); // 원하는 형식의 날짜 정보
 	     System.out.println(strDate); 
 
