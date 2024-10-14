@@ -6,22 +6,20 @@ public class Scope02 {
 
 	    int x1 = 10;
 	    
-	    if(true) {	// 첫번째 if블록 시작	
+	    if(true) {		
 	        int x2 = 20;
 	         x1 = 30;
-	        System.out.println("x = " + x2);//20
-	        System.out.println("x = " + x1);//10
-	    }// 첫번째 if끝   30
+	        System.out.println("x2 = " + x2); //20
+	        System.out.println("x1 = " + x1); //30
+	    }
 	    
 	    if(true)   {	
 	            int x3 = 30;
 
-	        System.out.println("x = " + x3);//30
-	        System.out.println("x = " + x1);//10
-	     // System.out.println("x = " + x2);
+	        System.out.println("x3 = " + x3); //30
+	        System.out.println("x1 = " + x1); //30
 	    } 
-	        System.out.println("x = " + x1);//10
-	     //	System.out.println("x = " + x3);
+	        System.out.println("x1 = " + x1); //30
 		
 	}
 }
