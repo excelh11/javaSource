@@ -46,6 +46,10 @@ Volvo Mustang -> 빵빵!
 Mustang
 로 수정
 
+### p164 이미지 그림 수정 ->
+
+Directed Association(직접연관)화살표 에서 -> Generalization(일반화) 화살표로 변경
+
 ## chap02 (sec08-sec12)
 
 ## chap03 (sec13-sec16)
