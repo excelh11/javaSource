@@ -13,20 +13,21 @@ class Vehicle {
 
 class Car extends Vehicle {
 	
-	  private String modelName = "Mustang";   
+	  public String modelName = "Mustang";   
 	  
-	  @Override
+	  
 	    public void honk() {                   
 		    System.out.println("빵빵!");
 		  }
+	  
 //	  @Override
 //	  public void stop() {
 //		  System.out.println("멈춥니다.");
 //	  }
 	  public static void main(String[] args) {
-	    Car myCar = new Car();
+		  Vehicle myCar = new Car();
 	    myCar.honk();
-	    System.out.println(myCar.brand + " " + myCar.modelName);
+	    System.out.println(((Car)myCar).modelName);
 	  }
 	  
 }
