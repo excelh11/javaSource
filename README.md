@@ -49,8 +49,8 @@ Mustang
 ### p164 이미지 그림 수정 ->
 
 Association(연관)화살표 에서 -> Generalization(일반화) 화살표로 변경
-[연관관계](https://github.com/excelh11/javaSource/blob/main/p164.jpg) ->
-[일반화관계](https://github.com/excelh11/javaSource/blob/main/p164_update.jpg)
+![p164](https://github.com/user-attachments/assets/c3ecff2e-1eb6-4463-9cca-0ab2b8ea12a8) ->
+![p164_update](https://github.com/user-attachments/assets/4530084b-31ff-4e49-bf9b-039c1ca84d50)
 
 ## chap02 (sec08-sec12)
 
