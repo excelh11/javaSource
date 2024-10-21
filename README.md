@@ -48,7 +48,9 @@ Mustang
 
 ### p164 이미지 그림 수정 ->
 
-Directed Association(직접연관)화살표 에서 -> Generalization(일반화) 화살표로 변경
+Association(연관)화살표 에서 -> Generalization(일반화) 화살표로 변경
+![연관관계](images/p164.jpg) ->
+![일반화관계](images/p164_update.jpg.jpg)
 
 ## chap02 (sec08-sec12)
 
