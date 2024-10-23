@@ -56,6 +56,11 @@ Association(연관)화살표 에서 -> Generalization(일반화) 화살표로 �
 
 tinally -> finally 로 변경
 
+### p249 이미지 화살표 수정
+
+![p249](https://github.com/user-attachments/assets/8ffe9c09-1fd4-454c-842e-a16a12e18094) ->
+![p249_update](https://github.com/user-attachments/assets/3f9904da-a7a9-4e15-a623-18027027ffec)
+
 ## chap02 (sec08-sec12)
 
 ## chap03 (sec13-sec16)
