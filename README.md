@@ -52,6 +52,10 @@ Association(연관)화살표 에서 -> Generalization(일반화) 화살표로 �
 ![p164](https://github.com/user-attachments/assets/c3ecff2e-1eb6-4463-9cca-0ab2b8ea12a8) ->
 ![p164_update](https://github.com/user-attachments/assets/4530084b-31ff-4e49-bf9b-039c1ca84d50)
 
+### p232 오타 수정
+
+tinally -> finally 로 변경
+
 ## chap02 (sec08-sec12)
 
 ## chap03 (sec13-sec16)
