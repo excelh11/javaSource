@@ -4,4 +4,4 @@
 
 ![bookcover](https://github.com/user-attachments/assets/4e95e03c-aedd-40bc-a4bf-8b0eadc5bc4b)
 
-# 오탈자 및 이미지 변경 확인은 check.md 파일에서 확인하세요
+## 오탈자 및 소스코드 변경은 check.md 파일에서 확인하세요
