@@ -64,8 +64,8 @@ tinally -> finally 로 변경
 
 ### p249 이미지 화살표 수정
 
-![p249](https://github.com/user-attachments/assets/8ffe9c09-1fd4-454c-842e-a16a12e18094) ->
-![p249_update](https://github.com/user-attachments/assets/3f9904da-a7a9-4e15-a623-18027027ffec)
+![p249](https://github.com/user-attachments/assets/dfc2d840-453a-4419-801c-0fcf2ec88fbc)->
+![p249_update](https://github.com/user-attachments/assets/7808ecc5-e933-4308-acab-69ae3eb511c2)
 
 ## chap02 (sec08-sec12)
 
