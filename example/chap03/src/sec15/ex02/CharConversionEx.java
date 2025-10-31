@@ -15,7 +15,7 @@ public class CharConversionEx {
         String outputFile = "output.txt";
 
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(inputFile), "UTF-8"));
-             BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(outputFile), "EUC-KR"))) {
+             BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(outputFile), "UTF-8"))) {
 
             String line;
             while ((line = reader.readLine()) != null) {
