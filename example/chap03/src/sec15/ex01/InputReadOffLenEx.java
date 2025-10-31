@@ -15,7 +15,6 @@ public class InputReadOffLenEx {
 		        String content = new String(buffer, 0, bytesRead);
 		        System.out.println(content); // "Hello" 출력
 		    }
-		    inputStream.close(); // 입력 스트림 닫기
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
