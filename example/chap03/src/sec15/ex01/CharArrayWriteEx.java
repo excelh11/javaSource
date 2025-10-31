@@ -10,9 +10,10 @@ public class CharArrayWriteEx {
 	        try (FileWriter writer = new FileWriter(fileName)) {
 	            char[] cbuf = {'H', 'e', 'l', 'l', 'o'};
 	            writer.write(cbuf);
-	            
-	            writer.flush();
-	            writer.close();
+
+	  // 자바 내부에서 flush, close를 다 해줘서 굳이 사용할 필요 없음
+	  //          writer.flush();
+	  //        writer.close();
 	            System.out.println("File written successfully.");
 	        } catch (IOException e) {
 	            e.printStackTrace();
