@@ -15,9 +15,6 @@ public class WriteIntEx {
             writer.write(unicode2);
             writer.write(unicode3);
             
-            writer.flush();
-            writer.close();
-            
             System.out.println("File written successfully.");
         } catch (IOException e) {
             e.printStackTrace();
