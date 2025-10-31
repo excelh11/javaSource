@@ -10,8 +10,8 @@ public class OffLenWriteEx {
 		String str = "Hello, OutputStream!";
 		try (Writer writer = new FileWriter("off_len_output.txt")) {
 		    writer.write(str, 0, 5);
-		    writer.flush();
-            writer.close();
+	//	    writer.flush();
+    //      writer.close();
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
