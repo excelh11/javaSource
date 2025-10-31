@@ -12,7 +12,6 @@ public class ReadEx {
             while ((character = reader.read()) != -1) {
                 System.out.println("Character: " + (char) character + " Unicode: " + character);
             }
-            reader.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
